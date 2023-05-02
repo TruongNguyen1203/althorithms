@@ -3,5 +3,12 @@
   &lt;TestAncestor&gt;
     &lt;TestId&gt;NUnit3x::C35124B4-EC5A-48AE-8EF8-A87C9BC6C19F::net7.0::DataStruct.Test.SinglyLinkedListTest.CreateEmptyList_CorrectState&lt;/TestId&gt;
     &lt;TestId&gt;NUnit3x::C35124B4-EC5A-48AE-8EF8-A87C9BC6C19F::net7.0::DataStruct.Test.SinglyLinkedListTest.AddFirst_and_AddLast_Onetime_CorrectState&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::C35124B4-EC5A-48AE-8EF8-A87C9BC6C19F::net7.0::DataStruct.Test.SinglyLinkedListTest.AddRemoveToGetStateSingleNode_CorrectState&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::C35124B4-EC5A-48AE-8EF8-A87C9BC6C19F::net7.0::DataStruct.Test.SinglyLinkedListTest.AddFistAddLast_CorrectOrder&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::C35124B4-EC5A-48AE-8EF8-A87C9BC6C19F::net7.0::DataStruct.Test.SinglyLinkedListTest.RemoveFirst_EmptyList_Throws&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::C35124B4-EC5A-48AE-8EF8-A87C9BC6C19F::net7.0::DataStruct.Test.SinglyLinkedListTest.RemoveLast_EmptyList_Throws&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::C35124B4-EC5A-48AE-8EF8-A87C9BC6C19F::net7.0::DataStruct.Test.SinglyLinkedListTest.RemoveLast_SingleElement_HeadTailAreNull&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::C35124B4-EC5A-48AE-8EF8-A87C9BC6C19F::net7.0::DataStruct.Test.SinglyLinkedListTest.IterateOver_SeveralItems_ExpectedSequence&lt;/TestId&gt;
+    &lt;TestId&gt;NUnit3x::C35124B4-EC5A-48AE-8EF8-A87C9BC6C19F::net7.0::DataStruct.Test.SinglyLinkedListTest.RemoveFirst_RemoveLast_CorrectSate&lt;/TestId&gt;
   &lt;/TestAncestor&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
