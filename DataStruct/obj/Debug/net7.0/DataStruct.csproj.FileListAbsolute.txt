@@ -1,0 +1,12 @@
+/Users/truongnguyen/code/algorithms/DataStruct/bin/Debug/net7.0/DataStruct.deps.json
+/Users/truongnguyen/code/algorithms/DataStruct/bin/Debug/net7.0/DataStruct.dll
+/Users/truongnguyen/code/algorithms/DataStruct/bin/Debug/net7.0/DataStruct.pdb
+/Users/truongnguyen/code/algorithms/DataStruct/obj/Debug/net7.0/DataStruct.csproj.AssemblyReference.cache
+/Users/truongnguyen/code/algorithms/DataStruct/obj/Debug/net7.0/DataStruct.GeneratedMSBuildEditorConfig.editorconfig
+/Users/truongnguyen/code/algorithms/DataStruct/obj/Debug/net7.0/DataStruct.AssemblyInfoInputs.cache
+/Users/truongnguyen/code/algorithms/DataStruct/obj/Debug/net7.0/DataStruct.AssemblyInfo.cs
+/Users/truongnguyen/code/algorithms/DataStruct/obj/Debug/net7.0/DataStruct.csproj.CoreCompileInputs.cache
+/Users/truongnguyen/code/algorithms/DataStruct/obj/Debug/net7.0/DataStruct.dll
+/Users/truongnguyen/code/algorithms/DataStruct/obj/Debug/net7.0/refint/DataStruct.dll
+/Users/truongnguyen/code/algorithms/DataStruct/obj/Debug/net7.0/DataStruct.pdb
+/Users/truongnguyen/code/algorithms/DataStruct/obj/Debug/net7.0/ref/DataStruct.dll

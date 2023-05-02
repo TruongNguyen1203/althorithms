@@ -1,0 +1,85 @@
+﻿using System;
+using NUnit.Framework;
+
+namespace DataStruct.Test
+{
+    [TestFixture]
+    public class SortingTest
+    {
+        private int[][] Samples()
+        {
+            int[][] samples = new int[9][];
+            samples[0] = new[] {1};
+            samples[1] = new[] {2, 1};
+            samples[2] = new[] {2, 1, 3};
+            samples[3] = new[] {1, 1, 1};
+            samples[4] = new[] {2, -1, 3, 3};
+            samples[5] = new[] {4, -5, 3, 3};
+            samples[6] = new[] {0, -5, 3, 3};
+            samples[7] = new[] {0, -5, 3, 0};
+            samples[8] = new[] {3, 2, 5, 5, 1, 0, 7, 8};
+
+            // int[][] samples = new int[1][];
+            // samples[0] = new[] {38, 27, 43, 3, 9, 82, 10};
+            samples[0] = new[] {8, 2, 4, 7, 1, 3, 9,6,5};
+            return samples;
+        }
+
+        private void RunTestForSortAlgorithm(Action<int[]> sort)
+        {
+            foreach (var sample in Samples())
+            {
+                sort(sample);
+                CollectionAssert.IsOrdered(sample);
+                PrintOut(sample);
+            }
+        }
+
+        private void PrintOut(int[] array)
+        {
+            TestContext.WriteLine("-----TRACE-----\n");
+            foreach (var el in array)
+            {
+                TestContext.Write(el + " ");
+            }
+
+            TestContext.WriteLine("\n----------------------\n");
+        }
+
+        [Test]
+        public void BubleSort_ValidInput_SortedInput()
+        {
+            RunTestForSortAlgorithm(Sorting.BubbleSort);
+        }
+
+        [Test]
+        public void SelectionSort_ValidInput_SortedInput()
+        {
+            RunTestForSortAlgorithm(Sorting.SelectionSort);
+        }
+
+        [Test]
+        public void InsertionSort_ValidInput_SortedInput()
+        {
+            RunTestForSortAlgorithm(Sorting.InsertionSort);
+        }
+
+        [Test]
+        public void ShellSort_ValidInput_SortedInput()
+        {
+            RunTestForSortAlgorithm(Sorting.ShellSort);
+        }
+
+        [Test]
+        public void MergeSort_ValidInput_SortedInput()
+        {
+            RunTestForSortAlgorithm(Sorting.MergeSort_v2);
+        }
+        
+        [Test]
+        public void QuickSort_ValidInput_SortedInput()
+        {
+            RunTestForSortAlgorithm(Sorting.QuickSort);
+        }
+    }
+}
