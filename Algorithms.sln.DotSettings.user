@@ -1,14 +1,17 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=94cdfded_002D0130_002D49d6_002D860e_002Dc6702be950db/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CreateEmptyList_CorrectState" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
-  &lt;TestAncestor&gt;
-    &lt;TestId&gt;NUnit3x::C35124B4-EC5A-48AE-8EF8-A87C9BC6C19F::net7.0::DataStruct.Test.SinglyLinkedListTest.CreateEmptyList_CorrectState&lt;/TestId&gt;
-    &lt;TestId&gt;NUnit3x::C35124B4-EC5A-48AE-8EF8-A87C9BC6C19F::net7.0::DataStruct.Test.SinglyLinkedListTest.AddFirst_and_AddLast_Onetime_CorrectState&lt;/TestId&gt;
-    &lt;TestId&gt;NUnit3x::C35124B4-EC5A-48AE-8EF8-A87C9BC6C19F::net7.0::DataStruct.Test.SinglyLinkedListTest.AddRemoveToGetStateSingleNode_CorrectState&lt;/TestId&gt;
-    &lt;TestId&gt;NUnit3x::C35124B4-EC5A-48AE-8EF8-A87C9BC6C19F::net7.0::DataStruct.Test.SinglyLinkedListTest.AddFistAddLast_CorrectOrder&lt;/TestId&gt;
-    &lt;TestId&gt;NUnit3x::C35124B4-EC5A-48AE-8EF8-A87C9BC6C19F::net7.0::DataStruct.Test.SinglyLinkedListTest.RemoveFirst_EmptyList_Throws&lt;/TestId&gt;
-    &lt;TestId&gt;NUnit3x::C35124B4-EC5A-48AE-8EF8-A87C9BC6C19F::net7.0::DataStruct.Test.SinglyLinkedListTest.RemoveLast_EmptyList_Throws&lt;/TestId&gt;
-    &lt;TestId&gt;NUnit3x::C35124B4-EC5A-48AE-8EF8-A87C9BC6C19F::net7.0::DataStruct.Test.SinglyLinkedListTest.RemoveLast_SingleElement_HeadTailAreNull&lt;/TestId&gt;
-    &lt;TestId&gt;NUnit3x::C35124B4-EC5A-48AE-8EF8-A87C9BC6C19F::net7.0::DataStruct.Test.SinglyLinkedListTest.IterateOver_SeveralItems_ExpectedSequence&lt;/TestId&gt;
-    &lt;TestId&gt;NUnit3x::C35124B4-EC5A-48AE-8EF8-A87C9BC6C19F::net7.0::DataStruct.Test.SinglyLinkedListTest.RemoveFirst_RemoveLast_CorrectSate&lt;/TestId&gt;
-  &lt;/TestAncestor&gt;
+  &lt;Or&gt;
+    &lt;TestAncestor&gt;
+      &lt;TestId&gt;NUnit3x::C35124B4-EC5A-48AE-8EF8-A87C9BC6C19F::net7.0::DataStruct.Test.SinglyLinkedListTest.CreateEmptyList_CorrectState&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::C35124B4-EC5A-48AE-8EF8-A87C9BC6C19F::net7.0::DataStruct.Test.SinglyLinkedListTest.AddFirst_and_AddLast_Onetime_CorrectState&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::C35124B4-EC5A-48AE-8EF8-A87C9BC6C19F::net7.0::DataStruct.Test.SinglyLinkedListTest.AddRemoveToGetStateSingleNode_CorrectState&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::C35124B4-EC5A-48AE-8EF8-A87C9BC6C19F::net7.0::DataStruct.Test.SinglyLinkedListTest.AddFistAddLast_CorrectOrder&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::C35124B4-EC5A-48AE-8EF8-A87C9BC6C19F::net7.0::DataStruct.Test.SinglyLinkedListTest.RemoveFirst_EmptyList_Throws&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::C35124B4-EC5A-48AE-8EF8-A87C9BC6C19F::net7.0::DataStruct.Test.SinglyLinkedListTest.RemoveLast_EmptyList_Throws&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::C35124B4-EC5A-48AE-8EF8-A87C9BC6C19F::net7.0::DataStruct.Test.SinglyLinkedListTest.RemoveLast_SingleElement_HeadTailAreNull&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::C35124B4-EC5A-48AE-8EF8-A87C9BC6C19F::net7.0::DataStruct.Test.SinglyLinkedListTest.IterateOver_SeveralItems_ExpectedSequence&lt;/TestId&gt;
+      &lt;TestId&gt;NUnit3x::C35124B4-EC5A-48AE-8EF8-A87C9BC6C19F::net7.0::DataStruct.Test.SinglyLinkedListTest.RemoveFirst_RemoveLast_CorrectSate&lt;/TestId&gt;
+    &lt;/TestAncestor&gt;
+    &lt;ProjectFile&gt;C35124B4-EC5A-48AE-8EF8-A87C9BC6C19F/f:DoublyLinkedListTest.cs&lt;/ProjectFile&gt;
+  &lt;/Or&gt;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
